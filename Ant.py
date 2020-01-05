@@ -186,5 +186,5 @@ if __name__ == '__main__':
         if simulate_ants() == 0:
             update_trails()
             cur_time != MAX_TIME and restart_ants()
-
+    print(max_elem)
     print(int(BEST_ANT.tour_length))
